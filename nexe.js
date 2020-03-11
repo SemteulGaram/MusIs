@@ -5,7 +5,7 @@ compile({
   build: true, //required to use patches
   target: 'windows-x86-12.15.0',
   vcBuild: [ 'sign', 'release' ],
-  ico: 'musis.ico',
+  ico: './data/musis.ico',
   verbose: true
 }).then(() => {
   console.log('success')
